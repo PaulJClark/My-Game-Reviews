@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Review Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>PAUL'S GAME REVIEWS</h1>
+    </nav>
+    <main class="container">
+        <section class="game-list">
+            <h2 class="game-list-header">Your Games:</h2>
+
+            <h3>In Progress</h3>
+             
+            <div class="game-card" onclick="showReview('Metal Gear Solid', 'I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.', 'images/mgs.png')">
+                <img src="images/mgs.png" alt="Metal Gear Solid">
+                <p>Metal Gear Solid</p>
+            </div>
+
+            <div class="game-card" onclick="showReview('Manhunt', 'Manhunt was intense with a lot of atmospheric tension. The gameplay and visuals were gritty and memorable.','images/manhunt.jpg')">
+                <img src="images/manhunt.jpg" alt="Manhunt">
+                <p>Manhunt</p>
+            </div>
+
+            <div class="game-card" onclick="showReview('Dark Souls 3', 'Manhunt was intense with a lot of atmospheric tension. The gameplay and visuals were gritty and memorable.','images/ds3.jpg')">
+                <img src="images/ds3.jpg" alt="Dark Souls 3">
+                <p>Dark Souls 3</p>
+            </div>
+
+            <h3>Completed</h3>
+
+            <div class="game-card" onclick="showReview('Warhammer 40,000: Space Marine 2', 'I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.', 'images/spacemarine2.png')">
+                <img src="images/spacemarine2.png" alt="Space Marine 2">
+                <p>Warhammer 40,000: Space Marine 2</p>
+            </div>
+
+            <div class="game-card" onclick="showReview('Resident Evil 2 Remake', 'I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.', 'images/re2.jpg')">
+                <img src="images/re2.jpg" alt="Resident Evil 2">
+                <p>Resident Evil 2 Remake</p>
+            </div>
+
+            <div class="game-card" onclick="showReview('Song of Iron', 'I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.', 'images/songofiron.jpg')">
+                <img src="images/songofiron.jpg" alt="Song of Iron">
+                <p>Song of Iron</p>
+            </div>
+
+            <div class="game-card" onclick="showReview('Mortal Kombat 1', 'I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.', 'images/mk1.jpg')">
+                <img src="images/mk1.jpg" alt="Mortal Kombat 1">
+                <p>Mortal Kombat 1</p>
+            </div>
+        
+
+
+             <h3>Backlog</h3>
+
+             <div class="game-card" onclick="showReview('Tom Clanys Splinter Cell', 'Manhunt was intense with a lot of atmospheric tension. The gameplay and visuals were gritty and memorable.','images/splintercell.jpg')">
+                <img src="images/splintercell.jpg" alt="Tom Clancy's Splinter Cell">
+                <p>Tom Clancy's Splinter Cell</p>
+            </div>
+
+        </section>
+        <section class="review-container">
+            <h2 id="game-title">Select a Game</h2>
+            <img id="game-screenshot">
+            <p id="game-review">Click on a game to see the review.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
