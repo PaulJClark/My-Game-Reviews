@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Metal Gear Solid",
+        "image": "images/mgs.png",
+        "description": "A stealth action masterpiece. Follow Solid Snake on a thrilling mission to save the world.",
+        "score": 10.0,
+        "review": "I played through this game on my Steam Deck via the master collection and thought it was great. I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.",
+        "category": "In Progress"
+    },
+    {
+        "name": "Manhunt",
+        "image": "images/manhunt.jpg",
+        "description": "An intense and gritty stealth-action game with a dark atmosphere.",
+        "score": 8.5,
+        "review": "Manhunt was intense with a lot of atmospheric tension. The gameplay and visuals were gritty and memorable.",
+        "category": "In Progress"
+    },
+    {
+        "name": "Dark Souls 3",
+        "image": "images/ds3.jpg",
+        "description": "The final chapter in the Dark Souls trilogy with challenging combat and breathtaking worlds.",
+        "score": 9.0,
+        "review": "A haunting and rewarding experience with some of the best boss fights in the series.",
+        "category": "In Progress"
+    },
+    {
+        "name": "Warhammer 40,000: Space Marine 2",
+        "image": "images/spacemarine2.png",
+        "description": "Sequel to the action-packed Warhammer 40,000: Space Marine.",
+        "score": 9.0,
+        "review": "I especially enjoyed exploring the levels, fighting each unique boss, and the stealth mechanics.",
+        "category": "Completed"
+    },
+    {
+        "name": "Resident Evil 2 Remake",
+        "image": "images/re2.jpg",
+        "description": "A modern take on the survival horror classic with stunning visuals.",
+        "score": 9.5,
+        "review": "An incredible remake with thrilling gameplay and an atmosphere that keeps you on edge.",
+        "category": "Completed"
+    },
+    {
+        "name": "Song of Iron",
+        "image": "images/songofiron.jpg",
+        "description": "A gritty side-scrolling action game with beautiful visuals and engaging combat.",
+        "score": 8.0,
+        "review": "Atmospheric with engaging combat and beautiful art.",
+        "category": "Completed"
+    },
+    {
+        "name": "Mortal Kombat 1",
+        "image": "images/mk1.jpg",
+        "description": "Brutal and entertaining fighting game with exciting new mechanics.",
+        "score": 9.0,
+        "review": "A bold entry with exciting new mechanics and thrilling combat.",
+        "category": "Completed"
+    },
+    {
+        "name": "Tom Clancy's Splinter Cell",
+        "image": "images/splintercell.jpg",
+        "description": "Step into the shoes of Sam Fisher, a highly trained secret operative in a world of espionage.",
+        "score": 8.8,
+        "review": "Infiltrate terrorist positions, acquire critical intelligence by any means necessary, and execute with extreme prejudice.",
+        "category": "Backlog"
+    },
+    {
+        "name": "Hitman: Codename 47",
+        "image": "images/hitman47.jpg",
+        "description": "A stealth assassination game that introduced Agent 47 to the world.",
+        "score": 8.2,
+        "review": "A classic stealth-action game with innovative mechanics and tense missions.",
+        "category": "Backlog"
+    },
+    {
+        "name": "Thief: Deadly Shadows",
+        "image": "images/deadlyshadows.jpg",
+        "description": "A stealth game that immerses you in a world of shadows and thievery.",
+        "score": 8.5,
+        "review": "A tense and atmospheric stealth game with great level design and engaging gameplay.",
+        "category": "Backlog"
+    }
+]
